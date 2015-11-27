@@ -14,4 +14,4 @@ alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
 alias gitconfig="git config --global --edit"
 # Delete local branches that track deleted remote branches
 # http://stackoverflow.com/a/17029936
-alias git-sync-branches="git remote prune origin && git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d"
+# git remote prune origin && git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
