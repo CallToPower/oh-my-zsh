@@ -14,3 +14,5 @@ export COYO_DB_PORT=5432
 export COYO_DB_NAME="coyo"
 export COYO_DB_USER="postgres"
 export COYO_DB_PASSWORD="postgres"
+export RABBITMQ_HOST="192.168.99.100"
+export RABBITMQ_PORT=5672
