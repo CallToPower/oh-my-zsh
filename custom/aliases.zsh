@@ -1,6 +1,5 @@
-alias zshconfig="mate ~/.zshrc"
-alias zshconfigcustom="mate ~/.oh-my-zsh/custom"
-alias ohmyzshconfig="mate ~/.oh-my-zsh"
+alias zshrcconfig="mate ~/.zshrc"
+alias zshconfig="mate ~/.oh-my-zsh"
 alias o="open ."
 alias a="l -A"
 alias ll="ls -lh"
