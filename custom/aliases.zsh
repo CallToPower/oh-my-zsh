@@ -7,6 +7,7 @@ alias la="ls -la"
 alias hist="history -E 0 | less"
 alias df="df -h"
 alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
+alias wttr="curl wttr.in/hamburg"
 
 # git-specific
 
