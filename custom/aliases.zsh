@@ -9,6 +9,9 @@ alias hist="history -E 0 | less"
 alias df="df -h"
 alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
 
+alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs"
+alias emacsc="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
+
 # git-specific
 
 alias gitconfig="git config --global --edit"
