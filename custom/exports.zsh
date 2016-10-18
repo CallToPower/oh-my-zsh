@@ -1,9 +1,15 @@
 export EDITOR="open -a /Applications/TextMate.app"
-export PATH="/usr/local/bin/:/opt/play-1.2.5.3/:$PATH"
-# export PATH="/Library/PostgreSQL/9.5/bin/:$PATH"
-# export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
+
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export GRADLE_HOME="/usr/local/bin/gradle"
+
+export PATH=${PATH}:/Users/$(whoami)/Library/Android/sdk/platform-tools:/Users/denmeyer/Library/Android/sdk/tools
+export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
+
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=128M -Djava.security.egd=file:/dev/./urandom"
 
+export COYO_FRONTEND_URL="http://localhost:3000"
+export COYO_BACKEND_URL="http://localhost:8080"
 export COYO_DB_HOST="localhost"
 export COYO_DB_PORT=5432
 export COYO_DB_NAME="coyo"
