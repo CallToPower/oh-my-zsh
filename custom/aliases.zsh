@@ -9,7 +9,7 @@ alias df="df -h"
 alias nw="/Applications/nwjs.app/Contents/MacOS/nwjs"
 alias wttr="curl wttr.in/hamburg"
 
-alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs"
+alias emacs="open -a /usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs $1"
 alias emacsc="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 
 # git-specific
