@@ -1,6 +1,9 @@
 export EDITOR="open -a /Applications/TextMate.app"
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=128M -Djava.security.egd=file:/dev/./urandom"
 
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export GRADLE_HOME="/usr/local/bin/gradle"
+
 export PATH=${PATH}:/Users/denmeyer/Library/Android/sdk/platform-tools:/Users/denmeyer/Library/Android/sdk/tools
 export ANDROID_HOME=/Users/denmeyer/Library/Android/sdk
 
