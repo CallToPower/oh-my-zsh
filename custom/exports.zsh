@@ -11,6 +11,8 @@ export ANDROID_HOME=/Users/$(whoami)/Library/Android/sdk
 
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=128M -Djava.security.egd=file:/dev/./urandom"
 
+export PATH="/Users/denmeyer/miniconda3/bin:$PATH"
+
 # export COYO_FRONTEND_URL="http://localhost:3000"
 # export COYO_BACKEND_URL="http://localhost:8080"
 # export COYO_DB_HOST="localhost"
