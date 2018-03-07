@@ -12,6 +12,8 @@ alias wttr="curl wttr.in/hamburg"
 alias emacs="open -a /usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs $1"
 alias emacsc="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 
+alias emacs="open -a /Applications/Emacs.app/Contents/MacOS/Emacs $1"
+
 # git-specific
 
 alias gitconfig="git config --global --edit"
