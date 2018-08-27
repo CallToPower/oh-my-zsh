@@ -1,8 +1,7 @@
 alias ll="ls -lh"
 alias la="ls -la"
 
-alias emacs="open -a /usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs $1"
-alias emacsc="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
+alias emacs="open -a /Applications/Emacs.app/Contents/MacOS/Emacs $1"
 
 # git-specific
 

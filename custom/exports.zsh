@@ -1,4 +1,5 @@
 export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 export GRADLE_HOME="/usr/local/bin/gradle"
 
-export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=128M -Djava.security.egd=file:/dev/./urandom"
+export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
+export PATH=${PATH}:/Users/$(whoami)/miniconda3/bin
